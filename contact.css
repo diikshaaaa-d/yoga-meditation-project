@@ -1,0 +1,143 @@
+/* Background image */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url('./assets/regibkg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo span {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-links a.active {
+  color: #F9A826;
+}
+
+/* Contact form */
+.contact-form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.contact-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.contact-header h2 {
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}
+
+.contact-header h3 {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.cta {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #F9A826;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 60px 20px 20px;
+  font-family: 'Inter', sans-serif;
+  margin-top: 100px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 40px;
+}
+
+.footer-column h3 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #F9A826;
+}
+
+.footer-column p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #bbb;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.footer-column i {
+  font-size: 18px;
+  color: #F9A826;
+}
